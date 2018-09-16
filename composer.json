@@ -1,0 +1,22 @@
+{
+    "name": "kuria/clock",
+    "description": "Provides access to current date and time that can be mocked for testing purposes",
+    "keywords": ["clock", "datetime", "date", "time", "now", "override", "test"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "kuria/dev-meta": "^0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuria\\Clock\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kuria\\Clock\\": "tests"
+        }
+    }
+}
