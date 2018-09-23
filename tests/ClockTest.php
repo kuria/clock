@@ -62,7 +62,7 @@ class ClockTest extends Test
         $this->assertSame(self::TZ_OTHER, $dateTime->getTimezone()->getName());
     }
 
-    function provideDateTimeMethods(): array
+    function provideDateTimeMethods()
     {
         return [
             ['dateTime'],
@@ -132,7 +132,7 @@ class ClockTest extends Test
         );
     }
 
-    function provideCurrentTimeOverrides(): array
+    function provideCurrentTimeOverrides()
     {
         return [
             // now, expectedTime, expectedMicrotime, expectedDateTime
